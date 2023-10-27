@@ -1,18 +1,45 @@
+/*Main body*/
 body {
   font-family: "Exo", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
+/*Header section*/
+.bg-color-name-title {
+  background-color: #676767;
+}
+
 header {
   margin: 0;
 }
+
+.heading {
+  margin-left: 50px;
+}
+
 .logo {
   background: url("../images/picpicpic.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 265px;
+  min-height: 330px;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
+}
+
+.name {
+  font-family: "Exo", sans-serif;
+  font-weight: 100;
+  font-size: 46px;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  color: #fff;
 }
