@@ -5,6 +5,10 @@ body {
 }
 
 /*Header section*/
+#nav {
+  margin: 0;
+}
+
 .bg-color-name-title {
   background-color: #676767;
 }
@@ -14,7 +18,7 @@ body {
 }
 
 .ui-menu-color-resume {
-  background-color: #fdc8a7;
+  background-color: #fcb385;
 }
 
 .ui-menu-color-contact {
@@ -71,4 +75,66 @@ header {
 #nav li {
   font-size: 14px;
   padding: 0;
+}
+
+.menuitem {
+  height: 120px;
+  text-align: center;
+  padding: 0;
+}
+
+.menuitem a {
+  width: 100%;
+  color: #fff;
+  height: 120px;
+  text-decoration: none;
+}
+
+.menuitem a i {
+  padding: 22px;
+  display: block;
+  color: #fafafa;
+  font-size: 26px;
+}
+
+.menuitem span {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/*Hover effect on menu*/
+.hvr-sweep-to-bottom:before {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 120px;
+}
+
+/*Special paddings, margins, texts*/
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.general-sub {
+  font-weight: 300;
+  color: #fafafa;
+}
+
+/*Footer*/
+footer {
+  background-color: #676767;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
 }
