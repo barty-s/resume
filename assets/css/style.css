@@ -119,7 +119,7 @@ header {
 .section-column {
   display: table-cell;
   padding: 0 30px 30px;
-  font: none;
+  float: none;
 }
 
 .section-heading {
@@ -205,4 +205,14 @@ footer {
 
 #footer-details {
   padding: 20px;
+}
+
+/* Three reasons section */
+.three-reasons-icon {
+  font-size: 26px;
+  color: #676767;
+}
+
+.three-reasons-heading {
+  margin-bottom: 15px;
 }
