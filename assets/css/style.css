@@ -134,7 +134,7 @@ header {
 }
 
 /*Hover effect on menu*/
-.hvr-sweep-to-bottom:before {
+.hvr-sweep-to-bottom::before {
   background-color: rgba(0, 0, 0, 0.2);
   height: 120px;
 }
@@ -260,18 +260,59 @@ footer {
 .progress {
   position: relative;
   height: 25px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .progress-type {
   position: absolute;
   left: 0;
   font-weight: 400;
-  padding: 3px 30px 2px 10px;
+  padding: 3px 10px 6px 10px;
   color: #fafafa;
   background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
   margin: 40px 20px;
+}
+
+/* Work History Section */
+.timeline-item {
+  padding: 4em 2em 3em 2em;
+  position: relative;
+  border-left: 1px solid;
+}
+
+.timeline-item p {
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item::before {
+  content: attr(data-dates);
+  position: absolute;
+  left: 2.5em;
+  top: 3em;
+  display: block;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item::after {
+  width: 12px;
+  height: 12px;
+  display: block;
+  top: 2.4em;
+  position: absolute;
+  left: -6px;
+  border-radius: 12px;
+  content: "";
+  background: #676767;
+}
+
+.history-items {
+  margin-bottom: 30px;
 }
