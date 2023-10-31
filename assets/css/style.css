@@ -204,6 +204,7 @@ footer {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
+  margin: 5px;
 }
 
 .social-links li a i:hover {
