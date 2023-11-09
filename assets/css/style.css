@@ -167,7 +167,7 @@ h4 {
 footer {
   background-color: #676767;
   color: #fafafa;
-  min-height: 120px;
+  min-height: 5px;
   margin: 0;
 }
 
@@ -212,9 +212,12 @@ footer {
 }
 
 #footer-details {
-  padding: 20px;
+  padding: 10px 10px 5px;
 }
 
+footer p {
+  margin-bottom: 0px;
+}
 /* Three reasons section */
 .three-reasons-icon {
   font-size: 26px;
