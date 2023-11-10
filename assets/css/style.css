@@ -40,6 +40,13 @@ body {
   background-color: #9b9b9b;
 }
 
+.ui-menu-color-github {
+  background-color: #cccccc;
+}
+.ui-menu-color-interests {
+  background-color: #aa272f;
+}
+
 header {
   margin: 0;
 }
