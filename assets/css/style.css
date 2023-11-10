@@ -362,6 +362,10 @@ button[type="submit"]:hover {
   border-color: #f96156;
 }
 
+div #map {
+  min-height: 360px;
+}
+
 /* Media Queries */
 @media (min-width: 992px) {
   .center-form {
